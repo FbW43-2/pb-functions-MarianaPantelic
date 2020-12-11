@@ -14,6 +14,7 @@ console.log(result);
 
 let arrFunction = (x, y) => x * y;
 console.log(arrFunction(x, y));
+//Result: 35
 
 
 
@@ -28,6 +29,7 @@ return result;
 }
 result = exponent(x, y);
 console.log(result);
+//Result: 78125
 
 /* function exponent(base, exp){
     let result;
@@ -49,6 +51,7 @@ function addUp(integer){
 }
 result = addUp(10);
 console.log(result);
+//Result: 55
 
 
 
@@ -65,6 +68,7 @@ function sumOfCubes(...x){
 
 result = sumOfCubes(1, 5, 9);
 console.log(result);
+//Result: 855
 
 
 
@@ -75,6 +79,8 @@ function isStrStartOfWord(substr, word){
 }
 
 console.log(isStrStartOfWord("de", "development"));
+//Result: true
+
 
 
 //6. Less than or equal to Zero?
@@ -83,6 +89,7 @@ function isLEQZero(number){
     return number <= 0;
 }
 console.log(isLEQZero(-59));
+//Result: true
 
 
 
@@ -98,4 +105,4 @@ function countOccurrences(string, letter){
     return sum;
 }
 console.log(countOccurrences("this is a string" , "i"));
-
+//Result: 3
